@@ -1,0 +1,20 @@
+{
+  "name": "master-launch",
+  "version": "1.0.0",
+  "description": "Landing page for Master Robotics with WhatsApp integration",
+  "main": "whatsapp.js",
+  "scripts": {
+    "start": "node whatsapp.js",
+    "dev": "nodemon whatsapp.js"
+  },
+  "author": "Uri RavOr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
